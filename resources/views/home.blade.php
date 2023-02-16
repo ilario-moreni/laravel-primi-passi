@@ -10,7 +10,7 @@
 
 <body>
     <div>
-        <h1>Hello laravel</h1>
+        <h1><?php echo $message ?></h1>
         <ul>
             <li><a href="{{ route('contatti') }}">Contatti</a></li>
         </ul>
